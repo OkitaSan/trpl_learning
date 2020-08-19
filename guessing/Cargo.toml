@@ -1,0 +1,13 @@
+[package]
+name = "guessing"
+version = "0.1.0"
+authors = ["OkitaSan <tssjy999@163.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 这里提供的是语义化的版本号，意思指的是和"0.6.0"兼容的版本
+# cargo build 一次以后，就会生成cargo lock文件，下次如果不改cargo.toml的话直接用cargo lock进行配置，不再从crate.io中拉取对应的兼容版本号，除非自己cargo update
+# 当cargo.toml被修改以后，此时cargo.toml按照新配置来拉对应的crate
+rand = "0.6.0"

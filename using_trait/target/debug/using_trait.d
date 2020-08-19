@@ -1,0 +1,1 @@
+C:\Users\OkitaSan\projects\learningRust\using_trait\target\debug\using_trait.exe: C:\Users\OkitaSan\projects\learningRust\using_trait\src\lib.rs C:\Users\OkitaSan\projects\learningRust\using_trait\src\main.rs

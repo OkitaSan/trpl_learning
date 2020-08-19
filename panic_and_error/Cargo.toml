@@ -1,0 +1,13 @@
+[package]
+name = "panic_and_error"
+version = "0.1.0"
+authors = ["OkitaSan <tssjy999@163.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+#如果想要程序在panic的时候直接炸掉而不是弹出栈信息,那么请在[profile]部分添加panic='abort'
+#[profile.release]
+#panic = 'abort'
